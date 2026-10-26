@@ -1,0 +1,15 @@
+{
+  "provider": "seed",
+  "default_zip": "01701",
+  "centers": [
+    { "label": "Framingham", "lat": 42.318, "lng": -71.439 },
+    { "label": "Boston", "lat": 42.3496, "lng": -71.0763 },
+    { "label": "Worcester", "lat": 42.2626, "lng": -71.8023 }
+  ],
+  "radius_mi": 25,
+  "days": 7,
+  "zip_radius_mi": 45,
+  "providers": {
+    "internationalshowtimes": { "base_url": "https://api.internationalshowtimes.com/v4" }
+  }
+}
